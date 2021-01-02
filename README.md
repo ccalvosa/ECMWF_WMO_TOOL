@@ -23,4 +23,8 @@ Previo a plotear las variables en python pedirá la salida en el mismo formato q
 De momento solo se plotea Geopotencial a 500 hPa y Presión a nivel del mar y Temperatura a 850 hPa. En los próximos días añadiré Viento a 850 hPa. 
 
 # EJEMPLOS
-- 1. Geopotencial a 500 hPa y Presión a nivel del mar 
+- Geopotencial a 500 hPa y Presión a nivel del mar 
+![](examples/Geop500_MSLP.gif)
+
+- Temperatura a 850 hPa 
+![](examples/T850.gif)

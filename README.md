@@ -28,3 +28,8 @@ De momento solo se plotea Geopotencial a 500 hPa y Presión a nivel del mar y Te
 
 - Temperatura a 850 hPa 
 ![](examples/T850.gif)
+
+# Sugerencias
+
+Cualquier tipo de duda o sugerencia son más que bienvenidas. 
+Twitter (@MeteoZGZ). Mail: ccalvosancho@gmail.com

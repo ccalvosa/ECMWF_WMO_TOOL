@@ -19,7 +19,6 @@ Tienes que correr el script 'ecmwf.sh'y te preguntará que salida quieres. Se te
 -DD -> Día
 -ZZ -> Salida (00-06-12-18)
 Antes de procesar los archivos .bin pedirá el día y la salida (DDZZ - Ejemplo: 0212). En el procesamiento se convierte el .bin en .nc. También se hace un merge de los archivos de geopotencial a 500 hPa con la presión a nivel del mar para posteriormente plotearlo ambas variables juntas. 
-Previo a plotear las variables en python pedirá la salida en el mismo formato que la primera vez. 
 De momento solo se plotea Geopotencial a 500 hPa y Presión a nivel del mar y Temperatura a 850 hPa. En los próximos días añadiré Viento a 850 hPa. 
 
 # EJEMPLOS

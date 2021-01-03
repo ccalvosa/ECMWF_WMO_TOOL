@@ -260,7 +260,7 @@ done
 ####PLOTEAMOS CON PYTHON CADA VARIABLE######
 ############################################
 
-echo "Ahora nos va a pedir otra vez que salida estamos utilizando. Ejemplo '2021010206'"
+echo "Comenzamos a plotear los resultados. Geopotencial a 500 hPa y Presión a nivel del mar y Temperatura a 850 hPa."
 
 python ../../geop_mslp.py
 python ../../t850.py

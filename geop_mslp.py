@@ -4,9 +4,8 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 import glob
 
-salida = int(input('¿Cuál es tu salida? La misma que el comienzo. Ejemplo "2021010206"'))
 
-files = glob.glob('/home/carlos-wrf/ECMWF/dissemination.ecmwf.int/{}0000/netcdf/gh_msl*.nc' .format(salida))
+files = glob.glob('./netcdf/gh_msl*.nc')
 
 for x in files:
         
@@ -50,7 +49,7 @@ for x in files:
 	cbar.set_label('Metros geopotenciales', fontsize=15)
 
 # Add Title
-	plt.title("Fecha: "+date.units[12:30]+' +'+x[76:79]+" Modelo ECMWF", fontsize=20, ha="center", fontweight='bold')
+	plt.title("Fecha: "+date.units[12:30]+' +'+x[16:19]+" Modelo ECMWF", fontsize=20, ha="center", fontweight='bold')
 
-	plt.savefig('../../export/'+date.units[12:30]+'_'+x[76:79]+'_geop_500hPa.png', bbox_inches='tight', dpi=300)
+	plt.savefig('../../export/'+date.units[12:30]+'_'+x[16:19]+'_geop_500hPa.png', bbox_inches='tight', dpi=300)
 
